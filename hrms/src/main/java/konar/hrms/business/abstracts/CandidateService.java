@@ -4,12 +4,12 @@ import java.util.List;
 
 import konar.hrms.core.utilities.results.DataResult;
 import konar.hrms.core.utilities.results.Result;
-import konar.hrms.entities.concretes.JobTitle;
+import konar.hrms.entities.concretes.Candidate;
 
-public interface JobTitleService {
+public interface CandidateService {
 	
-	DataResult<List<JobTitle>> getAll();
-	Result add(JobTitle jobTitle);
+	DataResult<List<Candidate>> getAll();
 	
+	Result add(Candidate candidate);
 
 }
